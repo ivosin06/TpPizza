@@ -1,0 +1,7 @@
+C:\Users\47206208\Desktop\tpdai\Pizzas.api\obj\Debug\net6.0\Pizzas.api.csproj.AssemblyReference.cache
+C:\Users\47206208\Desktop\tpdai\Pizzas.api\obj\Debug\net6.0\Pizzas.api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\47206208\Desktop\tpdai\Pizzas.api\obj\Debug\net6.0\Pizzas.api.AssemblyInfoInputs.cache
+C:\Users\47206208\Desktop\tpdai\Pizzas.api\obj\Debug\net6.0\Pizzas.api.AssemblyInfo.cs
+C:\Users\47206208\Desktop\tpdai\Pizzas.api\obj\Debug\net6.0\Pizzas.api.csproj.CoreCompileInputs.cache
+C:\Users\47206208\Desktop\tpdai\Pizzas.api\obj\Debug\net6.0\Pizzas.api.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\47206208\Desktop\tpdai\Pizzas.api\obj\Debug\net6.0\Pizzas.api.MvcApplicationPartsAssemblyInfo.cache
