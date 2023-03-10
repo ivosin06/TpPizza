@@ -1,4 +1,5 @@
-namespace Pizzas.api.Models;
+namespace Pizzas.api.Models
+{
 
 public class Pizzas{
     private int _Id;
@@ -31,9 +32,9 @@ public class Pizzas{
     }
     public float? Importe{
         get{
-            return _LibreGluten;
+            return _Importe;
         } set{
-            _LibreGluten = value;
+            _Importe = value;
         }
     }
     public string? Descripcion{
@@ -45,4 +46,5 @@ public class Pizzas{
     }
 
 
+}
 }
