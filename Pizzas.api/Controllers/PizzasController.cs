@@ -1,7 +1,9 @@
-namespace Pizzas.api.Controllers
-{
-        using Microsoft.AspNetCore.Mvc;
+ using Microsoft.AspNetCore.Mvc;
         using Pizzas.api.Models;
+namespace Pizzas.api.Controllers
+
+{
+        
         [ApiController]
         [Route("[controller]")]
         public class PizzasController : ControllerBase
