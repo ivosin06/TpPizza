@@ -10,7 +10,7 @@ namespace Pizzas.api.Controllers
         {
             [HttpGet]
             public IActionResult GetAll(){
-                List<Pizzas> lista = BD.ObtenerPizzas();
+                List<Pizza> lista = BD.ObtenerPizzas();
                 return Ok(lista);
             }
 
@@ -20,7 +20,7 @@ namespace Pizzas.api.Controllers
             if(id<1){
                 return BadRequest();
             }
-            Pizzas p = BD.ObtenerP(id);
+            Pizza p = BD.ObtenerP(id);
             if(p==null)
             {
                 return NotFound();
@@ -29,20 +29,20 @@ namespace Pizzas.api.Controllers
         }
             
             [HttpPost]
-        public IActionResult Create(Pizzas pizza){
+        public IActionResult Create(Pizza pizza){
             BD.CrearPizza(pizza);
             return Ok();
         }
 
 
         [HttpPut("{id}")]
-    public IActionResult Update(int id, Pizzas pizza)
+    public IActionResult Update(int id, Pizza pizza)
     {
 
     if(id < 1){
             return BadRequest();
         }
-        Pizzas p = BD.ObtenerP(id);
+        Pizza p = BD.ObtenerP(id);
 
         if(p == null) {
             return NotFound();
@@ -59,7 +59,7 @@ namespace Pizzas.api.Controllers
         if(id < 1){
             return BadRequest();
         }
-        Pizzas p = BD.ObtenerP(id);
+        Pizza p = BD.ObtenerP(id);
 
         if(p == null) {
             return NotFound();

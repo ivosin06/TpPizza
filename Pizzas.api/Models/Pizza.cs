@@ -1,7 +1,7 @@
 namespace Pizzas.api.Models
 {
 
-public class Pizzas{
+public class Pizza{
     private int _Id;
     private string? _Nombre;
     private bool? _LibreGluten;
